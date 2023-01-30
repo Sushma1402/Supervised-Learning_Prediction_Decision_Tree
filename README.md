@@ -7,7 +7,7 @@ Problem statement:  To predict the safety of the car. Create the Decision Tree C
 3. Repeat step 1 and step 2 on each subset until you find leaf nodes in all the branches of the tree.
 
 ## Decision Tree Training
-Now we fit Decision tree algorithm on training data, predicting labels for validation dataset and printing the accuracy of the model using various parameters.
+We fit Decision tree algorithm on training data, predicting labels for validation dataset and printing the accuracy of the model using various parameters.
 
 ## DecisionTreeClassifier():
 This is the classifier function for DecisionTree. It is the main function for implementing the algorithms. Some important parameters are:

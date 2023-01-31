@@ -36,7 +36,7 @@ In Python, sklearn is the package which contains all the required packages to im
                      b) Calculate the accuracy.
                      
 ## Data Import :
-              To import and manipulate the data we are using the pandas package provided in python.
+  To import and manipulate the data we are using the pandas package provided in python.
               
 ## Data Slicing :
   Before training the model we have to split the dataset into the training and testing dataset.

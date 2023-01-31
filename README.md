@@ -36,15 +36,17 @@ In Python, sklearn is the package which contains all the required packages to im
                      b) Calculate the accuracy.
                      
 ## Data Import :
-              To import and manipulate 	the data we are using the pandas package provided in python.
+              To import and manipulate the data we are using the pandas package provided in python.
+              
 ## Data Slicing :
-              Before training the model we have to split the dataset into the training and testing dataset.
-              To split the dataset for training and testing we are using the sklearn module train_test_split
-              First of all we have to separate the target variable from the attributes in the dataset.
-              The variable X contains the attributes while the variable Y contains the target variable of the dataset.
-              Next step is to split the dataset for training and testing purpose.
-              As we are splitting the dataset in a ratio of 70:30 between training and testing so we are pass test_size parameter’s value as 0.3.
-              random_state variable is a random number generator state used for random sampling.
+  Before training the model we have to split the dataset into the training and testing dataset.
+  To split the dataset for training and testing we are using the sklearn module train_test_split
+  First of all we have to separate the target variable from the attributes in the dataset.
+  The variable X contains the attributes while the variable Y contains the target variable of the dataset.
+  Next step is to split the dataset for training and testing purpose.
+  As we are splitting the dataset in a ratio of 70:30 between training and testing so we are pass test_size parameter’s value as 0.3.
+  random_state variable is a random number generator state used for random sampling.
+  
 Accuracy score is used to calculate the accuracy of the trained classifier.
 
 Confusion Matrix is used to understand the trained classifier behavior over the test dataset or validate dataset.

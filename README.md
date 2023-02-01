@@ -14,12 +14,12 @@ Problem statement:  To predict the safety of the car. Create the Decision Tree C
 
 ## Installation of the packages :
 In Python, sklearn is the package which contains all the required packages to implement Machine learning algorithm. You can install the sklearn package by following the commands given below.
-                      a) using pip :
-                                   pip install -U scikit-learn
-                         Before using the above command make sure you have scipy and numpy packages installed.
-                         If you don’t have pip. You can install it using python get-pip.py
-                      b) using conda :
-                                  conda install scikit-learn
+a) using pip :
+pip install -U scikit-learn
+Before using the above command make sure you have scipy and numpy packages installed.
+If you don’t have pip. You can install it using python get-pip.py
+b) using conda :
+conda install scikit-learn
                                   
 ## Assumptions we make while using Decision tree :
 1) At the beginning, we consider the whole training set as the root.
@@ -27,13 +27,13 @@ In Python, sklearn is the package which contains all the required packages to im
 3) On the basis of attribute values records are distributed recursively.
 4) We use statistical methods for ordering attributes as root or internal node.
 5) While implementing the decision tree we will go through the following two phases:
-                  A) Building Phase
-                     a) Preprocess the dataset.
-                     b) Split the dataset from train and test using Python sklearn package.
-                     c) Train the classifier.
-                  B) Operational Phase
-                     a) Make predictions.
-                     b) Calculate the accuracy.
+A) Building Phase
+   a) Preprocess the dataset.
+   b) Split the dataset from train and test using Python sklearn package.
+   c) Train the classifier.
+B) Operational Phase
+   a) Make predictions.
+   b) Calculate the accuracy.
                                    
 ## Decision Tree Algorithm
 1. Place the best attribute of our dataset at the root of the tree.

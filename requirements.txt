@@ -8,7 +8,6 @@ import seaborn as sns
 !pip install category_encoders
 import category_encoders as ce
 from sklearn.model_selection import train_test_split
-category_encoders
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_score

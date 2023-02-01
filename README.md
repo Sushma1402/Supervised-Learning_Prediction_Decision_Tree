@@ -8,11 +8,15 @@ Problem statement:  To predict the safety of the car. Create the Decision Tree C
       a) In python, sklearn is a machine learning package which include a lot of ML algorithms.
       
       b) Here, we are using some of its modules like train_test_split, DecisionTreeClassifier,accuracy_score,precision_score,recall_score and           classification_report.
+      
 2) NumPy :
+
       a) It is a numeric python module which provides fast maths functions for calculations.
       
       b) It is used to read data in numpy arrays and for manipulation purpose.
+      
 3) Pandas :
+
       a) Used to read and write different files.
       
       b) Data manipulation can be done easily with dataframes.

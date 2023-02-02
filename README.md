@@ -5,6 +5,8 @@ Problem statement:  To predict the safety of the car. Create the Decision Tree C
 
 Place the dataset in downloads folder.
 
+requirements.txt : Contains all the libraries used in the code. Which needs to be installed first.
+
 ## Used Python Packages:
 
 1) sklearn :

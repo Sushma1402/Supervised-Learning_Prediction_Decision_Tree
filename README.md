@@ -53,10 +53,6 @@ A) Building Phase
 B) Operational Phase
    a) Make predictions.
    b) Calculate the accuracy.
-                                   
-## Decision Tree Algorithm
-1. Place the best attribute of our dataset at the root of the tree.
-2. Split the training set into subsets. Subsets should be made in such a way that each subset contains data with the same value for an attribute.
-3. Repeat step 1 and step 2 on each subset until you find leaf nodes in all the branches of the tree.
+                                 
 
 
